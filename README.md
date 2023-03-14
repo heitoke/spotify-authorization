@@ -1,26 +1,14 @@
-# Mini Chat
+# Spotify Authorization
 
 ## Installation
 ```bash
-git clone https://github.com/bobiclaki/spotify-authorization
+git clone --branch ts-dev https://github.com/bobiclaki/spotify-authorization
 cd spotify-authorization
-npm i -tls
-node .
+npm i
+npm start
 ```
 
-## Config
+## ENV File
 ```js
-{
-    "Client": {
-        "id": ...,
-        "secret": ...
-    },
-    "body": {
-        "access_token": ...,
-        "token_type": "Bearer",
-        "expires_in": 3600,
-        "refresh_token": ...
-        "scope": ...,
-    }
-}
+PORT=<number> // default: 4000
 ```
