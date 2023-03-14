@@ -11,4 +11,7 @@ npm start
 ## ENV File
 ```js
 PORT=<number> // default: 4000
+CLIENT_ID=<string>
+CLIENT_SECRET=<string>
+CLIENT_REDIRECT_URI=<string>
 ```
